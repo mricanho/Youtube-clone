@@ -1,0 +1,13 @@
+body {
+    background: #eee;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background: white;
+}
+
+header {
+    display: flex;
+}
