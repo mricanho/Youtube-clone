@@ -28,6 +28,7 @@ header {
 
 .search-bar input {
     width: 90%;
+    padding: 5px;
 }
 
 .upload .upload-icon {
