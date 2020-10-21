@@ -179,9 +179,14 @@ header.header {
     color: #267ac6;
     position: absolute;
     width: 150px;
-    right: 417px;
-    
-
-    
+    right: 417px;      
 }
 
+.info .icon-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info .left-icons {
+    display: flex;
+}
