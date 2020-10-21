@@ -8,10 +8,12 @@ body {
     background: white;
 }
 
-header {
+header.header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 10px;
+    padding: 10px 0;
 }
 
 .logo .logo-img {
@@ -57,7 +59,8 @@ header {
 }
 
 .message {
-    margin: 10px 0;  
+    margin: 10px 0;
+    border: 2px solid #267ac6;  
 }
 
 .message h4 {
