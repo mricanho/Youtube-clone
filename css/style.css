@@ -162,6 +162,22 @@ header.header {
     align-items: flex-end;
 }
 
-.info .underline {
-    color: #267ac6;
+.info .longline {
+    border-top: #333;   
+       
+        
+}
+
+.info .shortline {
+    border: 1px solid #267ac6;
+    position: absolute;
+    top: -10;
+    width: 200px;
+
+    
+}
+
+.info .lines {
+    position: relative;
+    
 }
