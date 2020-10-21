@@ -92,3 +92,20 @@ header.header {
 .language-description .more:hover {
     cursor: pointer;
 }
+
+.sign-in-button {
+    background-color: #267ac6;
+    font-size: 10px;
+    border: none;
+    color: white;
+    padding: 8px;
+    
+}
+
+.video-player {
+    width: 60%;
+}
+
+.video-player iframe {
+    width: 100%;
+}
