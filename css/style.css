@@ -144,6 +144,10 @@ header.header {
     width: 100px;
 }
 
+.info .subscribe h3 {
+    color: #333;
+}
+
 .info .subscribe-icon {
     display: flex;
     align-items: center;
@@ -160,6 +164,7 @@ header.header {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    color: #7f7f7f;
 }
 
 .info .lines {
@@ -185,6 +190,18 @@ header.header {
     justify-content: space-between;
 }
 
-.info .left-icons {
+.info .left-icons, .info .right-icons {
     display: flex;
+}
+
+.info .icon {
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.info .icon label {
+    padding: 10px;
+    font-size: 12px;
+    color: #7f7f7f;
 }
