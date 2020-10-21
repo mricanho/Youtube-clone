@@ -109,3 +109,26 @@ header.header {
 .video-player iframe {
     width: 100%;
 }
+
+.info {
+    margin: 20px 0;
+}
+
+.info h1 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.info .thumbnail {
+    background: #689F39;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info .thumbnail p {
+    font-size: 28px;
+    color: white;
+}
