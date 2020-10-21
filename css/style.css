@@ -40,10 +40,14 @@ header {
     align-items: center;
     background: #267ac6;
     color: white;
-
+    padding: 10px;
 }
 
 .message {
     margin: 10px 0;  
+}
+
+.message h4 {
+    padding: 0 10px;
 }
 
