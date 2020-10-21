@@ -164,22 +164,20 @@ header.header {
 
 .info .lines {
     display: grid;
-    
-    
+    position: relative;
 }
+
 .info .longline {
     border-top: #333;   
-    width: 100%;
-       
-        
+    width: 100%; 
 }
 
 .info .shortline {
-    border: 1px solid #267ac6;
+    border-top: 1px solid #267ac6;
     color: #267ac6;
     position: absolute;
     width: 150px;
-    right: 417px;      
+    right: 10px;      
 }
 
 .info .icon-options {
