@@ -278,3 +278,18 @@ hr {
 .side-bar .first-title .right-part div {
     padding-left: 10px;
 }
+
+.side-bar .video {
+    display: flex;
+    padding: 10px 0;
+}
+
+.text h3 {
+    font-size: 14px;
+}
+
+.text .name, .views {
+    font-size: 11px;
+    color: rgb(190, 190, 190);
+    padding: 5px;
+}
