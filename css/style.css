@@ -38,9 +38,19 @@ header {
 .language-selection {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background: #267ac6;
     color: white;
     padding: 10px;
+}
+
+.language-selection .icon-text {
+    display: flex;
+    align-items: center;
+}
+
+.language-selection p {
+    font-size: 10px;
 }
 
 .message {
