@@ -36,7 +36,8 @@ header {
 }
 
 .language-selection {
-    
+    display: flex;
+    align-items: center;
     background: #267ac6;
     color: white;
 
@@ -44,10 +45,5 @@ header {
 
 .message {
     margin: 10px 0;  
-      
 }
 
-.language-icon {
-    width: 20px;
-    background: red;
-}
