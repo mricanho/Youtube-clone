@@ -35,13 +35,16 @@ header {
     width: 20px;
 }
 
-.language-selection {
+.language-selection, .language-description {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #267ac6;
     color: white;
     padding: 10px;
+}
+
+.language-selection {
+    background: #267ac6;
 }
 
 .language-selection .icon-text {
@@ -61,3 +64,15 @@ header {
     padding: 0 10px;
 }
 
+.language-description p {
+    color: #333;
+    font-size: 12px
+}
+
+.language-description .more {
+    color: #267ac6;
+}
+
+.language-description .more:hover {
+    cursor: pointer;
+}
