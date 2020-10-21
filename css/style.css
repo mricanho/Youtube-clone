@@ -22,6 +22,7 @@ header.header {
 
 .search-bar {
     width: 70%;
+    display: flex;
 }
 
 .search-bar .magnifying-glass {
@@ -31,6 +32,16 @@ header.header {
 .search-bar input {
     width: 90%;
     padding: 5px;
+    border: 1px solid #afaeae;
+}
+
+.search-bar .search-icon {
+    border: 1px solid #afaeae;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F8F8F8;
 }
 
 .upload .upload-icon {
