@@ -209,3 +209,32 @@ header {
     font-size: 12px;
     color: #7f7f7f;
 }
+
+.description {
+    background: white;
+    padding: 10px;
+    padding-bottom: 0;
+    color: #7f7f7f;
+    margin-bottom: 10px;
+}
+
+.description h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.description p {
+    font-size: 14px;
+    line-height: 1.2;
+    padding-bottom: 15px;
+}
+
+hr {
+    border-top: #333; 
+}
+
+.description .show-more {
+    text-align: center;
+    cursor: pointer;
+}
