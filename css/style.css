@@ -258,8 +258,23 @@ hr {
     padding-right: 10px;
 }
 
+.side-bar {
+    width: 40%;
+    background: white;
+    padding: 10px;
+}
+
 .side-bar .first-title {
-    background: red;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.side-bar .first-title .right-part {
+    display: flex;
+    align-items: center;
+}
+
+.side-bar .first-title .right-part div {
+    padding-left: 10px;
 }
