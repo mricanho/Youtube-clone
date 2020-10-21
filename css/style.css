@@ -162,22 +162,26 @@ header.header {
     align-items: flex-end;
 }
 
+.info .lines {
+    display: grid;
+    
+    
+}
 .info .longline {
     border-top: #333;   
+    width: 100%;
        
         
 }
 
 .info .shortline {
     border: 1px solid #267ac6;
+    color: #267ac6;
     position: absolute;
-    top: -10;
-    width: 200px;
+    width: 150px;
+    right: 417px;
+    
 
     
 }
 
-.info .lines {
-    position: relative;
-    
-}
