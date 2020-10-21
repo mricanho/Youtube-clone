@@ -34,3 +34,20 @@ header {
 .upload .upload-icon {
     width: 20px;
 }
+
+.language-selection {
+    
+    background: #267ac6;
+    color: white;
+
+}
+
+.message {
+    margin: 10px 0;  
+      
+}
+
+.language-icon {
+    width: 20px;
+    background: red;
+}
