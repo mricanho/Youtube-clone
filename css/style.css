@@ -241,9 +241,10 @@ hr {
   border-top: #333; 
 }
 
-.description .show-more {
+.show-more {
   text-align: center;
   cursor: pointer;
+  font-size: 14px;
 }
 
 .comments {
@@ -299,4 +300,8 @@ hr {
 
 .video .text {
     margin-left: 10px;
+}
+
+footer .options {
+    background: white;
 }
