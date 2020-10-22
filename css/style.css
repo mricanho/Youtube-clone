@@ -49,6 +49,7 @@ main {
   justify-content: center;
   align-items: center;
   background: #F8F8F8;
+  cursor: pointer;
 }
 
 .upload .upload-icon {
