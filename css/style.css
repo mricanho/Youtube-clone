@@ -23,7 +23,7 @@ main {
   display: flex;
 }
 
-.logo .logo-img {
+.logo-img {
   width: 100px;
 }
 
@@ -304,4 +304,12 @@ hr {
 
 footer .options {
     background: white;
+}
+
+.options button {
+  
+}
+
+.options .down-arrow {
+  width: 8px;
 }
