@@ -5,7 +5,7 @@ body {
 
 
 .container {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   background: #f1f1f1;
   border: 2px solid #333;
@@ -95,6 +95,10 @@ main {
   color: #267ac6;
 }
 
+.language-description .blue {
+  color: #267ac6;
+}
+
 .language-description .more:hover {
   cursor: pointer;
 }
@@ -109,7 +113,7 @@ main {
 }
 
 .video-player {
-  width: 60%;
+  width: 65%;
 }
 
 .video-player iframe {
@@ -257,9 +261,10 @@ hr {
 }
 
 .side-bar {
-  width: 40%;
+  width: 35%;
   background: white;
   padding: 10px;
+  margin-left: 10px;
 }
 
 .side-bar .first-title {
@@ -290,4 +295,8 @@ hr {
   font-size: 11px;
   color: rgb(190, 190, 190);
   padding: 5px;
+}
+
+.video .text {
+    margin-left: 10px;
 }
